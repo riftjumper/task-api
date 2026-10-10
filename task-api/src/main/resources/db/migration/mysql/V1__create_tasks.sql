@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS tasks (
+    id BIGINT NOT NULL AUTO_INCREMENT,
+    title VARCHAR(255),
+    completed BIT NOT NULL,
+    PRIMARY KEY (id)
+) ENGINE=InnoDB;
