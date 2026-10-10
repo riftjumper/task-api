@@ -5,3 +5,15 @@ Content-Type: application/json
   "title": "Learn Spring Boot",
   "completed": false
 }
+
+### Buat order (siapkan produk di database, lihat README)
+POST http://localhost:8080/orders
+Content-Type: application/json
+
+{
+  "product_id": 1,
+  "quantity": 2
+}
+
+### Baca order
+GET http://localhost:8080/orders/1
