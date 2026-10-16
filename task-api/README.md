@@ -4,7 +4,7 @@ Branch solusi ini mempertahankan Task API murid dan menambahkan Order API sesuai
 [`docs/order-api-pseudocode.md`](docs/order-api-pseudocode.md).
 
 ## Menjalankan dengan MySQL
-
+****
 Butuh Java 17, server MySQL yang sedang berjalan, dan akun MySQL yang sudah
 dibuat serta memiliki izin untuk membuat database `task_api_db`. Aplikasi
 memakai MySQL secara default.
